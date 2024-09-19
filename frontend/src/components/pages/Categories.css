@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.contet{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+.table{
+  width: 50%;
+  height: 100%;
+  margin-left: 500px;
+  margin-right: 100px;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerRow{
+  text-align: center; 
+  justify-content: space-between;
+  margin-left: 400px;
+  width: 50%;
+  box-shadow: inset 0 -2px green, inset 0 -5px #fff;
+}
+.itemRow{
+  text-align: center;
+}
+.itemRow:hover{
+  background-color: green;
+}
+.headerItem{
+  width: 50%;
+  font-size: 0.8rem;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left:15px;
+  padding-right: 5px;
+  text-align: center;
+}
+.tableItem{
+  width: 50%;
+  font-size: 1rem;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+  padding-right: 30px;
+  text-align: center;
+}
+.tableItem:hover{
+  color:#fff;
+}
+.auxiliary{
+  margin: 5px;
+}
+.fa-circle-play, .fa-circle-down{
+  color: #000;
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.fa-circle-play:hover, .fa-circle-down:hover{
+  color: #fff;
+  transform: scale(-1.1);
+}
+.btn-group button {
+  display: flex;
+  background-color: #fff; 
+  border: 1px solid green; 
+  color: green;
+  padding: 10px 24px; 
+  cursor: pointer; 
+  display: block; 
+  margin-right: 600px;
+  height: 50px;
+  width: 300px;
+  box-shadow: 2px 2px 5px green, -2px -2px 5px green;
+}
+.btn-group button:not(:last-child) {
+  border-bottom: none; 
+}
+.btn-group button:hover {
+  background-color: green;
+  color: #fff;
+  border: 1px solid #fff;
+}
+@media screen and (max-width: 960px){
+  .btn-group button{
+    margin-left: 600px;
+    background-color: #009E60;
+    height: 35px;
+    width: 250;
+  }
+  .table{
+    margin-left: 100px;
+    width: 100%;
+  } 
+  .headerRow{
+    width: 100%;
+    margin-right: 400px;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+}

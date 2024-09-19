@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.room{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+  margin-top: 50px;
+  text-align: left;
+  width: 650px;
+  height: 400px;
+  padding-left: 200px;
+  box-sizing: border-box;
+  background: url("/public/images/skizalogo.png") no-repeat;
+}
+.form{
+  margin: 5px;
+}
+.label{
+  color:green;
+}
+.input{
+  width: 300px;
+  height: 30px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Submit{
+  width: 300px;
+  height: 30px;
+  margin: 20px 5px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: green;
+  color:#fff;
+  font-size: 1rem;
+}
+.Submit:hover{
+  background: #fff;
+  color: green;
+  transition: 250ms;
+  transition: all 0.3s ease-out;
+}
+.account{
+  color:green;
+  margin-left: 5px;
+}
+.account:hover{
+  text-decoration: underline;
+}
+.error{
+  color: red;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+.success{
+  color: orange;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 960px){
+  .room{
+    margin-left: 70px;
+    width: 300px;
+    height: 400px;
+    margin-top: 200px;
+  }
+  .input{
+    width: 300px;
+  }
+  .Submit{
+    width: 260px;
+  }
+  .form{
+    margin-right: 200px;
+    padding-top: 220px;
+  }
+  .account{
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 768px){
+
+}
+
+

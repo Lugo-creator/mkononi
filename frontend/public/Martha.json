@@ -1,0 +1,54 @@
+  {
+  "users":[   
+    {
+      "id": 1,
+      "name": "Naiona Kesho",
+      "src": "/audio/naionamwaipaja.mpeg",
+      "url": "https://skizatune.com/6391184/",
+      "code":6391184,
+      "skizaprice":1.50,
+      "myskizaprice":1.50,
+      "validityperiod":1
+    },
+    {
+      "id": 2,
+      "name": "Yamebadilika",
+      "src": "/audio/mamboYamebadilikamwaipaja.mp3",
+      "url": "https://skizatune.com/6390120/",
+      "code":6390120,
+      "skizaprice":1.50,
+      "myskizaprice":1.50,
+      "validityperiod":1
+    },
+    {
+      "id": 3,
+      "name": "Najulikana Mbinguni",
+      "src": "/audio/mamboYamebadilikamwaipaja.mp3",
+      "url": "https://skizatune.com/6390653",
+      "code":6390653,
+      "skizaprice":1.50,
+      "myskizaprice":1.50,
+      "validityperiod":1
+    },
+    {
+      "id": 4,
+      "name": "Sipiganagi",
+      "src": "/audio/sipiganagimwaipaja.mpeg",
+      "url": "https://skizatune.com/6391205/",
+      "code":6391205,
+      "skizaprice":1.50,
+      "myskizaprice":1.50,
+      "validityperiod":1
+    },
+    {
+      "id": 5,
+      "name": "Adui Ajui",
+      "src": "/audio/mamboYamebadilikamwaipaja.mp3",
+      "url": "https://skizatune.com/6391735",
+      "code":6391735,
+      "skizaprice":1.50,
+      "myskizaprice":1.50,
+      "validityperiod":1
+    }
+  ]
+}

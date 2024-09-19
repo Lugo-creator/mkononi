@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin-top: -200px;
+  text-align: center;
+  padding: 20px; 
+}
+
+.container h1 {
+  font-size: 3rem; 
+  color: green;
+  margin: 20px auto; 
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.list-items {
+  width: 80%; 
+  margin: 20px auto;
+  padding: 10px;
+  list-style: none;
+  border: 2px solid green;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  flex-wrap: wrap; 
+}
+
+.play {
+  background-color: green;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.list-items a {
+  font-size: 1.2rem; 
+  color: #000;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.list-items a:hover {
+  color: green;
+}
+
+.pic {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.martha {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.dowload-btn {
+  height: 60px;
+  width: 150px;
+  margin-left: 15px;} 
+
+.dowload-btn img {
+  width: 75%;
+  height: 65px;
+  border-radius: 35px;
+  box-shadow: 5px 5px 7px green, -5px -5px 7px green;
+}
+
+.dowload-btn img:hover {
+  box-shadow: 5px 5px 7px #FF5F1F, -5px -5px 7px #FF5F1F;
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 960px) {
+  .container h1 {
+    font-size: 1.8rem;
+    margin-left: 80px; 
+  }
+
+  .martha {
+    width: 150px;
+    height: 150px;
+  }
+
+  .list-items {
+    width: 100%; 
+    margin-left: 0; 
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .list-items a {
+    font-size: 1rem;
+    margin: 10px 0; 
+  }
+
+  .dowload-btn {
+    height: 50px;
+    width: 100px;
+  }
+
+  .play {
+    width: 90%; /* Adjusted width for responsiveness */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin-top: -150px;
+  }
+
+  .pic {
+    margin: 30px auto;
+  }
+
+  .martha {
+    width: 120px;
+    height: 120px;
+  }
+
+  .list-items {
+    width: 100%; 
+    margin: 10px auto;
+    margin-top: 20px;
+  }
+
+  .list-items a {
+    font-size: 1rem;
+    margin-left: 0; 
+    margin-top: 50px;
+  }
+
+  .dowload-btn {
+    height: 45px;
+    width: 100px;
+  }
+
+  .play {
+    width: 100%;
+  }
+}

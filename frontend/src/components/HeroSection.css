@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heading-section{
+  margin: 50px auto;
+  width: 50%;
+}
+.heading-section h1{
+  color: orangered;
+  font-size: 1.8rem;
+}
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.hero-container {
+  /*background: url('/public/images/img-home.jpg') center center/cover no-repeat;*/
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);*/
+  object-fit: contain;
+  background-color: #fff;
+}
+
+.hero-container > h1 {
+  color: #000;
+  font-size: 50px;
+  margin-top: -100px;
+  
+}
+
+.fa-play-circle {
+  margin-left: 4px;
+}
+.fa-search{
+  color:#000;
+  font-size: 1rem;
+}
+.fa-search:hover{
+  color:#000;
+  transform: scale(-1.1);
+}
+.search {
+  width: 25%;
+  margin: 4rem 0 2rem;
+  margin-left: 750px;
+  margin-top: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+  background: #fff;
+  -webkit-box-shadow: 5px 5px 7px #000, -5px -5px 7px #000;
+  box-shadow: 5px 5px 7px #000, -5px -5px 7px #000;
+}
+.empty h2{
+  color:#000;
+  font-size: 1rem;
+  margin-bottom: 50px;
+  margin-left: 700px;
+}
+
+.search input {
+  flex: 1;
+  border: none;
+  font-size: 1rem;
+  font-family: var(--font-raleway);
+  font-weight: 500;
+  padding-right: 1rem;
+
+  outline: none;
+  color: #000;
+  background: #fff;
+}
+
+@media screen and (max-width: 960px) {
+  .hero-container > h1 {
+    font-size: 70px;
+    margin-top: -150px;
+  }
+  .heading-section h1{
+    font-size: 2rem;
+  }
+    .search {
+    width: 50%;
+    margin-left: 100px;
+    margin-bottom: -40px;
+  }
+.empty h2{
+    font-size: 0.9rem;
+    margin-top: 60px;
+    margin-left: 100px;
+  }
+  .heading-section{
+    width: 100%;
+    padding: 20px;
+  }
+.heading-section h1{
+  margin-top: 30px;
+  font-size: 2rem;
+}
+#sld{
+  display:none;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container > h1 {
+    font-size: 40px;
+    margin-top: -100px;
+  }
+  .heading-section h1{
+    font-size: 1.5rem;
+  }
+  .hero-container > p {
+    font-size: 30px;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+  .search {
+    width: 70%;
+    margin: 4rem 0 2rem;
+    margin-left: 50px;
+    margin-bottom: -40px;
+  }
+.empty h2{
+    font-size: 0.9rem;
+    margin-top: 60px;
+    margin-left: 100px;
+  }
+  #slider h2{
+    position:absolute;
+    margin: 10px;
+  }
+  #artists{
+    position: absolute;
+    margin: 10px;
+  }
+}

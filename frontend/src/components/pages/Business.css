@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box; 
+}
+
+.description {
+  width: 100%;
+  background: url('/public/images/back.jpg') center center/cover no-repeat;
+  min-height: 700px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.intro {
+  background-color: green;
+  border: none;
+  margin: 20px;
+  padding: 80px;
+  display: inline-block;
+  border-radius: 10px;
+  opacity: 0.85;
+}
+
+.biz-description {
+  max-width: 100%; 
+  padding: 20px; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  text-align: center;
+}
+
+.biz-description h3,
+.biz-description h2,
+.biz-description p {
+  max-width: 100%; 
+  color: #fff;
+}
+
+.biz-description h3 {
+  font-size: 1.8rem;
+}
+
+.biz-description h2 {
+  font-size: 2.2rem;
+}
+
+.biz-description p {
+  font-size: 1.2rem;
+}
+
+.biz-button {
+  width: auto; 
+  height: auto;
+  border: none;
+  border-radius: 10px;
+  background: green;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 10px 40px;
+  margin-top: 10px;
+  opacity: 0.85;
+}
+
+.biz-button:hover {
+  transform: scale(1.1);
+  background-color: #fff;
+  color: green;
+  border: 1px solid green;
+}
+
+.bizlog {
+  width: 100%;
+  max-width: 170px; 
+  height: auto;
+  margin: 20px auto; 
+}
+
+.bronze {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 75%;
+  border-radius: 10px;
+  background-color: green;
+  box-shadow: 4px 4px 7px green, -4px -4px 7px green;
+  text-align: center;
+}
+
+.bronze h1 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.bronze p {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.features h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.features li {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+@media screen and (max-width: 960px) {
+  .description {
+    min-height: 600px;
+  }
+
+  .biz-description h3 {
+    font-size: 1.5rem;
+  }
+
+  .biz-description h2 {
+    font-size: 1.8rem;
+  }
+
+  .biz-description p {
+    font-size: 1rem;
+    width: 90%; 
+  }
+
+  .bronze {
+    max-width: 90%; 
+  }
+
+  .features h3 {
+    font-size: 1.5rem;
+  }
+
+  .features li {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bizlog {
+    max-width: 150px; 
+  }
+
+  .bronze {
+    max-width: 100%; 
+  }
+}
